@@ -48,7 +48,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
+  padding: 0.5rem 4%;
   width: 100%;
 }
 
@@ -430,4 +430,5 @@ footer button:hover { background: #0056b3; }
 
   footer button { width: 100%; }
 }
+
 
