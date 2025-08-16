@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya_Srila</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MyLogo</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer-content">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img src="myjunk/pfp.jfif" alt="ProfilePic" id="pfp" class="pfp" onclick="OpenPopUp()">
+        <h1>Hola👋 I'M ANANYA</h1>
+        <H2 id="typing-text">I'M A DEVELOPER | DATA ANALYST | AI ENTHUSIAST</H2>
+        <p>Data is everywhere, and I love to explore it! I’m passionate about creating innovative solutions using technology and automation.</p>
+        <a href="#about-me"><button class="btn">KNOWMORE!⬇️</button></a>
+    </header>
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            Hi! I’m Ananya Majety, a Computer Science and AI enthusiast with a passion for technology, creativity, and problem-solving. 
+            I enjoy building interactive web experiences and exploring AI innovations.
+        </p>
+
+        <h3>Education</h3>
+        <ul>
+            <li><strong>B.Tech in CSE (AI & ML)</strong> - MLR Institute of Technology (2021–2025)</li>
+            <li><strong>Intermediate (Science)</strong> - Narayana Junior (2019–2021)</li>
+            <li><strong>High School</strong> - St. Ann's High School (2018–2019)</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2 id="headpro">Projects</h2>
+        <div class="project-card">
+            <h3>Weather Information Web App</h3>
+            <p>A weather application built using FastAPI for the backend and Streamlit for the frontend, fetching real-time weather data via OpenWeather API.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills, projects, and experience using HTML, CSS, and JavaScript with smooth animations.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>AI Chatbot</h3>
+            <p>A conversational AI chatbot built with Python, leveraging OpenAI API to answer questions and assist users in real-time.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h2>Contact Me</h2>
+            <p>Let’s work together! You can reach me anytime.</p>
+            
+
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ananyamajety2003/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ananya-1227" target="_blank">GitHub</a>
+                <a href="mailto:ananyamajetyy20@gmail.com">Email</a>
+            </div>
+        
+            <p class="footer-copy">© 2025 Ananya Majety. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Floating Button -->
+    <div class="floating-menu">
+        <img src="myjunk/bot.jfif" alt="Contact" id="menu-btn">
+        <div class="menu-circle" id="menu-circle">
+            <a href="https://linkedin.com" target="_blank" class="menu-item"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com" target="_blank" class="menu-item"><img src="github.png" alt="GitHub"></a>
+            <a href="mailto:you@example.com" class="menu-item"><img src="email.png" alt="Email"></a>
+            <a href="https://instagram.com" target="_blank" class="menu-item"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>    
+</body>
+</html>
