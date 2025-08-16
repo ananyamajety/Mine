@@ -40,7 +40,7 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 1000;
   background-color: pink;
@@ -65,7 +65,7 @@ body {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
@@ -431,5 +431,6 @@ footer button:hover { background: #0056b3; }
 
   footer button { width: 100%; }
 }
+
 
 
