@@ -3,7 +3,6 @@ body{
     margin: 0;
     padding: 0;
     background-color: lavenderblush;
-    box-sizing:border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -29,9 +28,6 @@ html{
     z-index:1;
 }*/
 .navbar{
-    position:sticky;
-    z-index:1000;
-    top:0;
     background-color: pink;
     color: white;
     display: flex;
@@ -70,7 +66,7 @@ html{
 .hero{
     align-items: center;
     text-align: center;
-    padding: 5vh 2rem;
+    padding: 2rem;
 }
 .hero h1{
     font-size: 2.5rem;
@@ -89,53 +85,54 @@ html{
     color: white;
     padding: 0.5rem 1rem;
     border: none;       
-    border-radius: 0.6rem;
+    border-radius: 10px;
     cursor: pointer;    
     text-decoration: none;
     font-weight: bold;  
+    height: 90px;
+    width: 150px;
 }
 .hero .profile-pic{
     display: flex;
     justify-content: flex-start;
 }
 .pfp{
-    width: 9rem;          /* small size */
-    height: rem;         /* make it equal width/height */
+    width: 150px;          /* small size */
+    height: 150px;         /* make it equal width/height */
     border-radius: 50%;    /* makes it circular */
     object-fit: cover;     /* ensures image fills circle without stretching */
-    border: 0.2rem solid #ccc; /* optional colored border */
+    border: 3px; /* optional colored border */
     align-self: left;
     cursor: pointer;
-    transition: transform 0.3s ease;
 }
 .pfp:hover{
     transform: scale(1.1); /* slightly enlarges the image on hover */
     transition: transform 0.3s ease; /* smooth transition */
 }
 #about-me {
-    max-width: 90%;
-    margin: 50vh auto;
-    padding: 2rem;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
     background: lavender;
-    border-radius: 0.6rem;
-    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #about-me h2 {
     color: #333;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
 #about-me p {
     color: #555;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
 }
 
 #about-me h3 {
     color: #444;
-    margin-bottom: 10vh;
+    margin-bottom: 10px;
 }
 
 #about-me ul {
@@ -144,7 +141,7 @@ html{
 }
 
 #about-me ul li {
-    padding: 0.5rem 0;
+    padding: 8px 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -152,42 +149,42 @@ html{
     color: #222;
 }
 #projects {
-    max-width: 95%;
-    margin: 5vh auto;
-    padding: 2rem;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
     background: grey;
-    border-radius: 0.6rem;
-    box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #projects h2 {
     color: #333;
-    font-size: 28rem;
-    margin-bottom: 1.5rem;
+    font-size: 28px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .project-card {
     background: #f7f9fc;
-    padding: 1.2rem;
-    margin-bottom: 1.2rem;
-    border-radius: 0.5rem;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .project-card h3 {
     color: #222;
-    margin-bottom: 0.8rem;
+    margin-bottom: 8px;
 }
 
 .project-card p {
     color: #555;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
     line-height: 1.5;
 }
 
@@ -196,9 +193,9 @@ html{
     text-decoration: none;
     color: white;
     background: darkgreen;
-    padding: 0.5rem 1rem;
-    border-radius: 0.3rem;
-    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
     transition: background 0.3s ease;
 }
 
@@ -208,40 +205,40 @@ html{
 footer {
     background-color: #111;
     color: white;
-    padding: 4rem 2rem;
+    padding: 40px 20px;
     text-align: center;
 }
 
 .footer-content h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .footer-content p {
     color: #ccc;
-    margin-bottom: 1.5;
+    margin-bottom: 20px;
 }
 
 footer form {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    max-width: 90%;
-    margin: 0 auto 1.5rem;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto 20px;
 }
 
 footer input, footer textarea {
-    padding: 0.8rem;
+    padding: 10px;
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 5px;
     outline: none;
 }
 
 footer button {
     background: #007bff;
     color: white;
-    padding: 1rem;
+    padding: 10px;
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -251,12 +248,12 @@ footer button:hover {
 }
 
 .social-icons {
-    margin: 1.5rem 0;
+    margin: 15px 0;
 }
 
 .social-icons a {
     color: #ccc;
-    margin: 0 1rem;
+    margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -266,18 +263,18 @@ footer button:hover {
 }
 
 .footer-copy {
-    font-size: 1.4rem;
+    font-size: 14px;
     color: #888;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 .menu-btn{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 1.5rem auto;
+    margin: 15px auto;
     display: block;
-    border: 0.3rem solid white;
+    border: 3px solid white;
     box-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
     animation: float 3s ease-in-out infinite,
                pulse 2s infinite,
@@ -374,4 +371,3 @@ footer button:hover {
     pointer-events: auto;
     transform: scale(1);
 }
-
