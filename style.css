@@ -95,6 +95,7 @@ body {
 
 .hero h1 {
   font-size: 2.5rem;
+  font-family : Inter;
   margin: 0.5rem 0 0.25rem 0;
 }
 
@@ -430,6 +431,7 @@ footer button:hover { background: #0056b3; }
 
   footer button { width: 100%; }
 }
+
 
 
 
