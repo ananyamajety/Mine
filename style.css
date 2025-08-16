@@ -40,7 +40,7 @@ body {
 
 /* ---------- Navbar ---------- */
 .navbar {
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 1000;
   background-color: pink;
@@ -430,6 +430,7 @@ footer button:hover { background: #0056b3; }
 
   footer button { width: 100%; }
 }
+
 
 
 
